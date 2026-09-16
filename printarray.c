@@ -2,10 +2,9 @@
 int main()
 {
     int arr[5]={1,5,4,7,2};
-    int i;
-    for(i=0;i<5;i++)
+     arr[4]=8;
     {
-        printf("%d\n",arr[i]);
+        printf("%d\n",arr[4]);
     }
     return 0;
 }
